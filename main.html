@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>API Dashboard Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1 class="main-title">API Dashboard Project</h1>
+    <div class="grid-container">
+
+    <!-- Dog or Dogs-->
+      <section class="grid-item" id="dog-api">
+      <h2>🐶 See Dog</h2>
+      <div class="controls">
+        <button id="dog-single-btn">Get Dog Picture</button>
+        <button id="dog-multi-btn">Get 3 Dogs</button>
+      </div>
+      <div class="output" id="dog-output"></div>
+      </section>
+
+    <!-- Cat -->
+      <section class="grid-item" id="cat-api">
+      <h2>🐱 Heres a Cat</h2>
+      <button id="cat-btn">Get Cat</button>
+      <div class="output" id="cat-output"></div>
+      </section>
+
+    <!-- Weather -->
+      <section class="grid-item" id="weather-api">
+      <h2>☀️ Weather In...?</h2>
+      <div class="controls">
+        <input id="weather-city" type="text" placeholder="City (e.g., London)" />
+        <button id="weather-btn">Get Weather</button>
+      </div>
+      <div class="output" id="weather-output"></div>
+      </section>
+
+      <!-- Currency Rate Checker -->
+    <section class="grid-item" id="currency-api">
+  <h2>💱 Currency Exchange Rates</h2>
+  <div class="controls">
+    <input id="currency-code" type="text" placeholder="Currency code (e.g., EUR)" />
+    <button id="currency-btn">Check Rate</button>
+  </div>
+  <div class="output" id="currency-output"></div>
+    </section>
+
+
+    <!-- Trending Movies -->
+      <section class="grid-item" id="movies-api">
+      <h2>🎬 "Trending" Movies</h2>
+      <button id="movies-btn">Find Movies</button>
+      <div class="output" id="movies-output"></div>
+      </section>
+
+    <!-- GITHUB user -->
+      <section class="grid-item" id="github-api">
+      <h2>🧑‍💻 GitHub User</h2>
+      <div class="controls">
+        <input id="github-username" type="text" placeholder="Username (e.g., torvalds)" />
+        <button id="github-btn">Get User</button>
+      </div>
+      <div class="output" id="github-output"></div>
+      </section>
+
+    <!-- Jokes -->
+      <section class="grid-item" id="joke-api">
+      <h2>🤣 Have a Laugh</h2>
+      <button id="joke-btn">Get the Joke</button>
+      <div class="output" id="joke-output"></div>
+      </section>
+
+   <!-- History Facts -->
+  <section class="grid-item" id="history-api">
+  <h2>📜 History Facts, Did you know...?</h2>
+  <button id="history-btn">Get History Facts</button>
+  <div class="output" id="history-output"></div>
+  </section>
+
+    </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
